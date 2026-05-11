@@ -59,4 +59,5 @@ class DefaultFirebaseOptions {
     projectId: 'calories-teacker',
     storageBucket: 'calories-teacker.firebasestorage.app',
   );
+
 }
