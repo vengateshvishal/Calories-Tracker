@@ -1,5 +1,5 @@
+import 'package:calorie_tracker/services/auth_service.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class WelcomeScreen1 extends StatelessWidget {
@@ -61,8 +61,11 @@ class WelcomeScreen1 extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 GestureDetector(
-                                  onTap: () {
-                                    
+                                  onTap: () async{
+                                    final UserCredential = await FirebaseService().login();
+                                    if(UserCredential != null){
+                                      print('HOME PAGE');
+                                    }
                                   },
                                   child: Container(
                                     width: 312.0,
