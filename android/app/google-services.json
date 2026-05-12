@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "203851882905",
-    "project_id": "calories-teacker",
-    "storage_bucket": "calories-teacker.firebasestorage.app"
+    "project_number": "1039691022184",
+    "project_id": "calorietracker-61a69",
+    "storage_bucket": "calorietracker-61a69.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:203851882905:android:aade19d0e3b66a374df308",
+        "mobilesdk_app_id": "1:1039691022184:android:4b64699ae5c9ac44ce20dd",
         "android_client_info": {
-          "package_name": "com.example.calorie_tracker"
+          "package_name": "com.vishal.calorie_tracker"
         }
       },
       "oauth_client": [
         {
-          "client_id": "203851882905-cha1imn5eiim9iubis44j66k30nf8nrd.apps.googleusercontent.com",
+          "client_id": "1039691022184-ph4ushelpmmak31m07ra3cddf0k0bv6q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.calorie_tracker",
+            "package_name": "com.vishal.calorie_tracker",
             "certificate_hash": "5bcfa9ddc04008f3b06e2e1c3ea9ad3d50833b18"
           }
         },
         {
-          "client_id": "203851882905-8e3t1akrltcs1p393ptrnvdscpst8s3p.apps.googleusercontent.com",
+          "client_id": "1039691022184-9qut0carvrvuka42brio6dlro3k6eaa0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB_pAa2zN2w4mdCO9pFPqlGuRLMITMo664"
+          "current_key": "AIzaSyD8tgbqBTPRwBKvPd8ZQ5DaiQfCe5axiJA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "203851882905-8e3t1akrltcs1p393ptrnvdscpst8s3p.apps.googleusercontent.com",
+              "client_id": "1039691022184-9qut0carvrvuka42brio6dlro3k6eaa0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,9 +1,42 @@
-import 'package:calorie_tracker/services/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
-class WelcomeScreen1 extends StatelessWidget {
+class WelcomeScreen1 extends StatefulWidget {
   const WelcomeScreen1({super.key});
+
+  @override
+  State<WelcomeScreen1> createState() => _WelcomeScreen1State();
+}
+
+class _WelcomeScreen1State extends State<WelcomeScreen1> {
+  Future<UserCredential> signInWithGoogle() async {
+    // Locate your GoogleSignIn declaration
+    final GoogleSignIn _googleSignIn = GoogleSignIn(
+      // PASTE YOUR WEB CLIENT ID HERE
+      serverClientId:
+          '1039691022184-9qut0carvrvuka42brio6dlro3k6eaa0.apps.googleusercontent.com',
+    );
+
+    // Then your sign-in logic will use it:
+    final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
+    // Trigger the authentication flow
+    // final GoogleSignInAccount? googleUser = await GoogleSignIn.instance
+    //     .authenticate();
+
+    // Obtain the auth details from the request
+    final GoogleSignInAuthentication googleAuth = await googleUser!.authentication;
+
+    // Create a new credential
+    final credential = GoogleAuthProvider.credential(
+      idToken: googleAuth.idToken,
+      // accessToken:
+    );
+
+    // Once signed in, return the UserCredential
+    return await FirebaseAuth.instance.signInWithCredential(credential);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -61,11 +94,8 @@ class WelcomeScreen1 extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 GestureDetector(
-                                  onTap: () async{
-                                    final UserCredential = await FirebaseService().login();
-                                    if(UserCredential != null){
-                                      print('HOME PAGE');
-                                    }
+                                  onTap: () {
+                                    signInWithGoogle();
                                   },
                                   child: Container(
                                     width: 312.0,
@@ -79,7 +109,8 @@ class WelcomeScreen1 extends StatelessWidget {
                                       borderRadius: BorderRadius.circular(8.0),
                                     ),
                                     child: Row(
-                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
                                       children: [
                                         SvgPicture.asset(
                                           'assets/svg/Icon=Google.svg',
@@ -98,11 +129,9 @@ class WelcomeScreen1 extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                SizedBox(height: 20.0,),
+                                SizedBox(height: 20.0),
                                 GestureDetector(
-                                  onTap: () {
-                                    
-                                  },
+                                  onTap: () {},
                                   child: Container(
                                     width: 312.0,
                                     height: 54.0,
@@ -115,7 +144,8 @@ class WelcomeScreen1 extends StatelessWidget {
                                       borderRadius: BorderRadius.circular(8.0),
                                     ),
                                     child: Row(
-                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
                                       children: [
                                         Icon(Icons.mail_outline),
                                         SizedBox(width: 5.0),

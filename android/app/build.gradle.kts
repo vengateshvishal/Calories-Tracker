@@ -9,28 +9,31 @@ plugins {
 }
 
 android {
-    namespace = "com.example.calorie_tracker"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace = "com.vishal.calorie_tracker"
+    compileSdk = 36
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
     sourceCompatibility = JavaVersion.VERSION_11 // Change from 17 to 11
     targetCompatibility = JavaVersion.VERSION_11 // Change from 17 to 11
 }
 
-kotlinOptions {
-    jvmTarget = JavaVersion.VERSION_11.toString() // Change from 17 to 11
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+    }
 }
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.calorie_tracker"
+        applicationId = "com.vishal.calorie_tracker"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        targetSdk = 36
+        versionCode = 1
+        versionName = "1.0"
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -44,4 +47,13 @@ kotlinOptions {
 
 flutter {
     source = "../.."
+}
+
+dependencies{
+    implementation(platform("com.google.firebase:firebase-bom:34.13.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth")
+    implementation("androidx.credentials:credentials:1.3.0")
+    implementation("androidx.credentials:credentials-play-services-auth:1.3.0")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
 }

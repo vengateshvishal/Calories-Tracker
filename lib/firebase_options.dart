@@ -26,10 +26,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -53,8 +50,16 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyD8tgbqBTPRwBKvPd8ZQ5DaiQfCe5axiJA',
+    appId: '1:1039691022184:android:4b64699ae5c9ac44ce20dd',
+    messagingSenderId: '1039691022184',
+    projectId: 'calorietracker-61a69',
+    storageBucket: 'calorietracker-61a69.firebasestorage.app',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyB_pAa2zN2w4mdCO9pFPqlGuRLMITMo664',
-    appId: '1:203851882905:android:aade19d0e3b66a374df308',
+    appId: '1:203851882905:ios:15a4cf0f6ba10f18df308',
     messagingSenderId: '203851882905',
     projectId: 'calories-teacker',
     storageBucket: 'calories-teacker.firebasestorage.app',

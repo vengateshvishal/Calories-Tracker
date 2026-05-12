@@ -1,4 +1,4 @@
-package com.example.calorie_tracker
+package com.vishal.calorie_tracker
 
 import io.flutter.embedding.android.FlutterActivity
 
