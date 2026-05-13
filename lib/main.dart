@@ -1,5 +1,7 @@
+import 'package:calorie_tracker/Screens/homepage.dart';
 import 'package:calorie_tracker/firebase_options.dart';
 import 'package:calorie_tracker/onboarding_screens/onboarding_screen_1.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +17,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OnboardingScreen1(),
+      home: StreamBuilder<User?>(
+        stream: FirebaseAuth.instance.authStateChanges(),
+        builder: (context, snapshot) {
+          if (snapshot.hasData) {
+            return Homepage();
+          }
+          print(snapshot.hasData);
+          return OnboardingScreen1();
+        },
+      ),
     );
   }
 }

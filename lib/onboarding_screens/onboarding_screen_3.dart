@@ -1,4 +1,4 @@
-import 'package:calorie_tracker/welcome_screens/welcome_screen_1.dart';
+import 'package:calorie_tracker/Screens/welcome_screen_1.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -8,6 +8,7 @@ class OnboardingScreen3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
           Container(

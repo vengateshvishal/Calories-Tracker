@@ -1,7 +1,9 @@
+import 'package:calorie_tracker/Screens/goal_selection_screen.dart';
+import 'package:calorie_tracker/services/auth_services.dart';
+import 'package:calorie_tracker/Screens/login_screen.dart';
+import 'package:calorie_tracker/Screens/signin_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:google_sign_in/google_sign_in.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 class WelcomeScreen1 extends StatefulWidget {
   const WelcomeScreen1({super.key});
@@ -11,36 +13,10 @@ class WelcomeScreen1 extends StatefulWidget {
 }
 
 class _WelcomeScreen1State extends State<WelcomeScreen1> {
-  Future<UserCredential> signInWithGoogle() async {
-    // Locate your GoogleSignIn declaration
-    final GoogleSignIn _googleSignIn = GoogleSignIn(
-      // PASTE YOUR WEB CLIENT ID HERE
-      serverClientId:
-          '1039691022184-9qut0carvrvuka42brio6dlro3k6eaa0.apps.googleusercontent.com',
-    );
-
-    // Then your sign-in logic will use it:
-    final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
-    // Trigger the authentication flow
-    // final GoogleSignInAccount? googleUser = await GoogleSignIn.instance
-    //     .authenticate();
-
-    // Obtain the auth details from the request
-    final GoogleSignInAuthentication googleAuth = await googleUser!.authentication;
-
-    // Create a new credential
-    final credential = GoogleAuthProvider.credential(
-      idToken: googleAuth.idToken,
-      // accessToken:
-    );
-
-    // Once signed in, return the UserCredential
-    return await FirebaseAuth.instance.signInWithCredential(credential);
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
           Container(
@@ -94,8 +70,23 @@ class _WelcomeScreen1State extends State<WelcomeScreen1> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 GestureDetector(
-                                  onTap: () {
-                                    signInWithGoogle();
+                                  onTap: () async {
+                                    try {
+                                      final result = await AuthServices()
+                                          .signInWithGoogle();
+
+                                      if (result.user != null) {
+                                        Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) =>
+                                                GoalSelectionScreen(),
+                                          ),
+                                        );
+                                      }
+                                    } catch (e) {
+                                      print('Error');
+                                    }
                                   },
                                   child: Container(
                                     width: 312.0,
@@ -131,7 +122,15 @@ class _WelcomeScreen1State extends State<WelcomeScreen1> {
                                 ),
                                 SizedBox(height: 20.0),
                                 GestureDetector(
-                                  onTap: () {},
+                                  onTap: () {
+                                    Navigator.pop(context);
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => SigninScreen(),
+                                      ),
+                                    );
+                                  },
                                   child: Container(
                                     width: 312.0,
                                     height: 54.0,
@@ -199,9 +198,16 @@ class _WelcomeScreen1State extends State<WelcomeScreen1> {
                     ),
                     TextButton(
                       style: TextButton.styleFrom(padding: EdgeInsets.zero),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => LoginScreen(),
+                          ),
+                        );
+                      },
                       child: Text(
-                        'Sign In',
+                        'Log In',
                         style: TextStyle(
                           fontSize: 17.0,
                           color: Color(0xff35cc8c),
