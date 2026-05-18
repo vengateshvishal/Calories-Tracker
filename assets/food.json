@@ -1,0 +1,2300 @@
+{
+    "food_database": [
+        {
+            "food_name": "Chicken Breast",
+            "calories": 165,
+            "proteins": 31.0,
+            "fats": 3.6,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Chicken Thigh",
+            "calories": 232,
+            "proteins": 26.0,
+            "fats": 13.5,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Chicken Wing",
+            "calories": 254,
+            "proteins": 26.9,
+            "fats": 15.3,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Turkey Breast",
+            "calories": 135,
+            "proteins": 30.0,
+            "fats": 1.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Beef Sirloin Steak",
+            "calories": 204,
+            "proteins": 30.0,
+            "fats": 8.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Beef Ribeye Steak",
+            "calories": 291,
+            "proteins": 24.0,
+            "fats": 21.8,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Ground Beef",
+            "calories": 250,
+            "proteins": 26.0,
+            "fats": 15.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pork Chop",
+            "calories": 197,
+            "proteins": 30.0,
+            "fats": 7.6,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pork Tenderloin",
+            "calories": 143,
+            "proteins": 26.0,
+            "fats": 3.5,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Bacon",
+            "calories": 541,
+            "proteins": 37.0,
+            "fats": 42.0,
+            "carbs": 1.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Lamb Chop",
+            "calories": 235,
+            "proteins": 28.0,
+            "fats": 13.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Duck Breast",
+            "calories": 140,
+            "proteins": 28.0,
+            "fats": 2.5,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Salmon Fillet",
+            "calories": 206,
+            "proteins": 22.0,
+            "fats": 12.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Atlantic Cod",
+            "calories": 82,
+            "proteins": 18.0,
+            "fats": 0.7,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Canned Tuna",
+            "calories": 116,
+            "proteins": 26.0,
+            "fats": 1.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Shrimp",
+            "calories": 99,
+            "proteins": 24.0,
+            "fats": 0.3,
+            "carbs": 0.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Lobster",
+            "calories": 89,
+            "proteins": 19.0,
+            "fats": 0.9,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Tilapia Fillet",
+            "calories": 128,
+            "proteins": 26.0,
+            "fats": 2.7,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Rainbow Trout",
+            "calories": 141,
+            "proteins": 20.0,
+            "fats": 6.2,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sardines",
+            "calories": 208,
+            "proteins": 24.6,
+            "fats": 11.5,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Whole Milk",
+            "calories": 61,
+            "proteins": 3.2,
+            "fats": 3.3,
+            "carbs": 4.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Skim Milk",
+            "calories": 34,
+            "proteins": 3.4,
+            "fats": 0.1,
+            "carbs": 5.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Greek Yogurt",
+            "calories": 59,
+            "proteins": 10.0,
+            "fats": 0.4,
+            "carbs": 3.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cheddar Cheese",
+            "calories": 403,
+            "proteins": 24.9,
+            "fats": 33.1,
+            "carbs": 1.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Mozzarella Cheese",
+            "calories": 300,
+            "proteins": 22.0,
+            "fats": 22.0,
+            "carbs": 2.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Parmesan Cheese",
+            "calories": 431,
+            "proteins": 38.5,
+            "fats": 28.6,
+            "carbs": 4.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cottage Cheese",
+            "calories": 81,
+            "proteins": 10.4,
+            "fats": 2.3,
+            "carbs": 4.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Butter",
+            "calories": 717,
+            "proteins": 0.9,
+            "fats": 81.1,
+            "carbs": 0.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Whole Egg",
+            "calories": 155,
+            "proteins": 12.6,
+            "fats": 10.6,
+            "carbs": 1.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Egg White",
+            "calories": 52,
+            "proteins": 11.0,
+            "fats": 0.2,
+            "carbs": 0.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "White Rice",
+            "calories": 130,
+            "proteins": 2.7,
+            "fats": 0.3,
+            "carbs": 28.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Brown Rice",
+            "calories": 112,
+            "proteins": 2.6,
+            "fats": 0.9,
+            "carbs": 23.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Quinoa",
+            "calories": 120,
+            "proteins": 4.4,
+            "fats": 1.9,
+            "carbs": 21.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Oatmeal",
+            "calories": 71,
+            "proteins": 2.5,
+            "fats": 1.4,
+            "carbs": 12.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "White Bread",
+            "calories": 265,
+            "proteins": 9.0,
+            "fats": 3.2,
+            "carbs": 49.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Whole Wheat Bread",
+            "calories": 247,
+            "proteins": 13.0,
+            "fats": 3.4,
+            "carbs": 41.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Spaghetti Pasta",
+            "calories": 158,
+            "proteins": 5.8,
+            "fats": 0.9,
+            "carbs": 30.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sweet Corn",
+            "calories": 96,
+            "proteins": 3.4,
+            "fats": 1.5,
+            "carbs": 21.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Popcorn",
+            "calories": 387,
+            "proteins": 12.9,
+            "fats": 4.5,
+            "carbs": 77.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sweet Potato",
+            "calories": 90,
+            "proteins": 2.0,
+            "fats": 0.2,
+            "carbs": 20.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Russet Potato",
+            "calories": 93,
+            "proteins": 2.5,
+            "fats": 0.1,
+            "carbs": 21.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Broccoli",
+            "calories": 34,
+            "proteins": 2.8,
+            "fats": 0.4,
+            "carbs": 6.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Spinach",
+            "calories": 23,
+            "proteins": 2.9,
+            "fats": 0.4,
+            "carbs": 3.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Carrots",
+            "calories": 41,
+            "proteins": 0.9,
+            "fats": 0.2,
+            "carbs": 9.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Tomatoes",
+            "calories": 18,
+            "proteins": 0.9,
+            "fats": 0.2,
+            "carbs": 3.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cucumber",
+            "calories": 15,
+            "proteins": 0.7,
+            "fats": 0.1,
+            "carbs": 3.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Iceberg Lettuce",
+            "calories": 14,
+            "proteins": 0.9,
+            "fats": 0.1,
+            "carbs": 3.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Romaine Lettuce",
+            "calories": 17,
+            "proteins": 1.2,
+            "fats": 0.3,
+            "carbs": 3.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Kale",
+            "calories": 49,
+            "proteins": 4.3,
+            "fats": 0.9,
+            "carbs": 8.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cauliflower",
+            "calories": 25,
+            "proteins": 1.9,
+            "fats": 0.3,
+            "carbs": 5.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Brussels Sprouts",
+            "calories": 43,
+            "proteins": 3.4,
+            "fats": 0.3,
+            "carbs": 9.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Asparagus",
+            "calories": 20,
+            "proteins": 2.2,
+            "fats": 0.1,
+            "carbs": 3.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Green Bell Pepper",
+            "calories": 20,
+            "proteins": 0.9,
+            "fats": 0.2,
+            "carbs": 4.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Red Bell Pepper",
+            "calories": 31,
+            "proteins": 1.0,
+            "fats": 0.3,
+            "carbs": 6.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Yellow Onion",
+            "calories": 40,
+            "proteins": 1.1,
+            "fats": 0.1,
+            "carbs": 9.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Garlic",
+            "calories": 149,
+            "proteins": 6.4,
+            "fats": 0.5,
+            "carbs": 33.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "White Mushrooms",
+            "calories": 22,
+            "proteins": 3.1,
+            "fats": 0.3,
+            "carbs": 3.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Avocado",
+            "calories": 160,
+            "proteins": 2.0,
+            "fats": 14.7,
+            "carbs": 8.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Banana",
+            "calories": 89,
+            "proteins": 1.1,
+            "fats": 0.3,
+            "carbs": 22.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Apple",
+            "calories": 52,
+            "proteins": 0.3,
+            "fats": 0.2,
+            "carbs": 13.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Strawberries",
+            "calories": 32,
+            "proteins": 0.7,
+            "fats": 0.3,
+            "carbs": 7.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Blueberries",
+            "calories": 57,
+            "proteins": 0.7,
+            "fats": 0.3,
+            "carbs": 14.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Raspberries",
+            "calories": 52,
+            "proteins": 1.2,
+            "fats": 0.7,
+            "carbs": 11.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Orange",
+            "calories": 47,
+            "proteins": 0.9,
+            "fats": 0.1,
+            "carbs": 11.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Grapes",
+            "calories": 69,
+            "proteins": 0.7,
+            "fats": 0.2,
+            "carbs": 18.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Watermelon",
+            "calories": 30,
+            "proteins": 0.6,
+            "fats": 0.2,
+            "carbs": 7.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pineapple",
+            "calories": 50,
+            "proteins": 0.5,
+            "fats": 0.1,
+            "carbs": 13.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Mango",
+            "calories": 60,
+            "proteins": 0.8,
+            "fats": 0.4,
+            "carbs": 15.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Peach",
+            "calories": 39,
+            "proteins": 0.9,
+            "fats": 0.3,
+            "carbs": 9.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Lemon Juice",
+            "calories": 22,
+            "proteins": 0.4,
+            "fats": 0.2,
+            "carbs": 6.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Almonds",
+            "calories": 579,
+            "proteins": 21.2,
+            "fats": 49.9,
+            "carbs": 21.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Walnuts",
+            "calories": 654,
+            "proteins": 15.2,
+            "fats": 65.2,
+            "carbs": 13.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Peanuts",
+            "calories": 567,
+            "proteins": 25.8,
+            "fats": 49.2,
+            "carbs": 16.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Peanut Butter",
+            "calories": 588,
+            "proteins": 25.0,
+            "fats": 50.0,
+            "carbs": 20.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Chia Seeds",
+            "calories": 486,
+            "proteins": 16.5,
+            "fats": 30.7,
+            "carbs": 42.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Flaxseeds",
+            "calories": 534,
+            "proteins": 18.3,
+            "fats": 42.2,
+            "carbs": 28.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Black Beans",
+            "calories": 132,
+            "proteins": 8.9,
+            "fats": 0.5,
+            "carbs": 23.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Chickpeas",
+            "calories": 164,
+            "proteins": 8.9,
+            "fats": 2.6,
+            "carbs": 27.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Lentils",
+            "calories": 116,
+            "proteins": 9.0,
+            "fats": 0.4,
+            "carbs": 20.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Tofu",
+            "calories": 76,
+            "proteins": 8.0,
+            "fats": 4.8,
+            "carbs": 1.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Olive Oil",
+            "calories": 884,
+            "proteins": 0.0,
+            "fats": 100.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Coconut Oil",
+            "calories": 862,
+            "proteins": 0.0,
+            "fats": 100.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Honey",
+            "calories": 304,
+            "proteins": 0.3,
+            "fats": 0.0,
+            "carbs": 82.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "White Sugar",
+            "calories": 387,
+            "proteins": 0.0,
+            "fats": 0.0,
+            "carbs": 100.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Dark Chocolate",
+            "calories": 598,
+            "proteins": 7.8,
+            "fats": 42.6,
+            "carbs": 45.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Milk Chocolate",
+            "calories": 535,
+            "proteins": 7.6,
+            "fats": 29.7,
+            "carbs": 59.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Whole Wheat Pasta",
+            "calories": 124,
+            "proteins": 5.3,
+            "fats": 0.5,
+            "carbs": 26.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Soy Milk",
+            "calories": 33,
+            "proteins": 2.8,
+            "fats": 1.6,
+            "carbs": 1.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Almond Milk",
+            "calories": 15,
+            "proteins": 0.6,
+            "fats": 1.1,
+            "carbs": 0.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Oat Milk",
+            "calories": 48,
+            "proteins": 0.8,
+            "fats": 1.5,
+            "carbs": 7.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cashews",
+            "calories": 553,
+            "proteins": 18.2,
+            "fats": 43.8,
+            "carbs": 30.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pistachios",
+            "calories": 562,
+            "proteins": 20.3,
+            "fats": 45.4,
+            "carbs": 27.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pumpkin Seeds",
+            "calories": 559,
+            "proteins": 30.2,
+            "fats": 49.1,
+            "carbs": 10.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sunflower Seeds",
+            "calories": 584,
+            "proteins": 20.8,
+            "fats": 51.5,
+            "carbs": 20.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Green Peas",
+            "calories": 81,
+            "proteins": 5.4,
+            "fats": 0.4,
+            "carbs": 14.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Kidney Beans",
+            "calories": 127,
+            "proteins": 8.7,
+            "fats": 0.5,
+            "carbs": 22.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pinto Beans",
+            "calories": 143,
+            "proteins": 9.0,
+            "fats": 0.6,
+            "carbs": 26.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Oat Bran",
+            "calories": 246,
+            "proteins": 17.3,
+            "fats": 7.0,
+            "carbs": 66.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Barley",
+            "calories": 354,
+            "proteins": 12.5,
+            "fats": 2.3,
+            "carbs": 73.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Buckwheat",
+            "calories": 343,
+            "proteins": 13.3,
+            "fats": 3.4,
+            "carbs": 71.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Millet",
+            "calories": 378,
+            "proteins": 11.0,
+            "fats": 4.2,
+            "carbs": 72.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Rye Flour",
+            "calories": 346,
+            "proteins": 8.1,
+            "fats": 1.7,
+            "carbs": 76.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Couscous",
+            "calories": 112,
+            "proteins": 3.8,
+            "fats": 0.2,
+            "carbs": 23.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Bulgur",
+            "calories": 83,
+            "proteins": 3.1,
+            "fats": 0.2,
+            "carbs": 18.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Wild Rice",
+            "calories": 101,
+            "proteins": 4.0,
+            "fats": 0.3,
+            "carbs": 21.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Tapioca Pearls",
+            "calories": 358,
+            "proteins": 0.2,
+            "fats": 0.0,
+            "carbs": 88.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cornmeal",
+            "calories": 362,
+            "proteins": 8.1,
+            "fats": 3.6,
+            "carbs": 76.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Celery",
+            "calories": 16,
+            "proteins": 0.7,
+            "fats": 0.2,
+            "carbs": 3.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Radish",
+            "calories": 16,
+            "proteins": 0.7,
+            "fats": 0.1,
+            "carbs": 3.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Zucchini",
+            "calories": 17,
+            "proteins": 1.2,
+            "fats": 0.3,
+            "carbs": 3.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pumpkin",
+            "calories": 26,
+            "proteins": 1.0,
+            "fats": 0.1,
+            "carbs": 6.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Butternut Squash",
+            "calories": 45,
+            "proteins": 1.0,
+            "fats": 0.1,
+            "carbs": 11.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Okra",
+            "calories": 33,
+            "proteins": 1.9,
+            "fats": 0.2,
+            "carbs": 7.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Green Beans",
+            "calories": 31,
+            "proteins": 1.8,
+            "fats": 0.2,
+            "carbs": 7.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Artichoke",
+            "calories": 47,
+            "proteins": 3.3,
+            "fats": 0.2,
+            "carbs": 10.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Leeks",
+            "calories": 61,
+            "proteins": 1.5,
+            "fats": 0.3,
+            "carbs": 14.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Beetroot",
+            "calories": 43,
+            "proteins": 1.6,
+            "fats": 0.2,
+            "carbs": 10.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Turnips",
+            "calories": 28,
+            "proteins": 0.9,
+            "fats": 0.1,
+            "carbs": 6.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Parsnips",
+            "calories": 75,
+            "proteins": 1.2,
+            "fats": 0.3,
+            "carbs": 18.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sweet Paprika",
+            "calories": 282,
+            "proteins": 14.1,
+            "fats": 12.9,
+            "carbs": 54.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Black Pepper",
+            "calories": 251,
+            "proteins": 10.4,
+            "fats": 3.3,
+            "carbs": 64.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Ginger Root",
+            "calories": 80,
+            "proteins": 1.8,
+            "fats": 0.8,
+            "carbs": 17.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Turmeric Powder",
+            "calories": 354,
+            "proteins": 7.8,
+            "fats": 9.9,
+            "carbs": 64.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cinnamon",
+            "calories": 247,
+            "proteins": 4.0,
+            "fats": 1.2,
+            "carbs": 80.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Oregano",
+            "calories": 265,
+            "proteins": 9.0,
+            "fats": 4.3,
+            "carbs": 68.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Basil",
+            "calories": 23,
+            "proteins": 3.2,
+            "fats": 0.6,
+            "carbs": 2.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cilantro",
+            "calories": 23,
+            "proteins": 2.1,
+            "fats": 0.5,
+            "carbs": 3.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Parsley",
+            "calories": 36,
+            "proteins": 3.0,
+            "fats": 0.8,
+            "carbs": 6.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Rosemary",
+            "calories": 131,
+            "proteins": 3.3,
+            "fats": 5.9,
+            "carbs": 20.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Grapefruit",
+            "calories": 42,
+            "proteins": 0.8,
+            "fats": 0.1,
+            "carbs": 10.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Lime",
+            "calories": 30,
+            "proteins": 0.7,
+            "fats": 0.2,
+            "carbs": 10.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pear",
+            "calories": 57,
+            "proteins": 0.4,
+            "fats": 0.1,
+            "carbs": 15.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Plum",
+            "calories": 46,
+            "proteins": 0.7,
+            "fats": 0.3,
+            "carbs": 11.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cherry",
+            "calories": 50,
+            "proteins": 1.0,
+            "fats": 0.3,
+            "carbs": 12.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Apricot",
+            "calories": 48,
+            "proteins": 1.4,
+            "fats": 0.4,
+            "carbs": 11.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Nectarine",
+            "calories": 44,
+            "proteins": 1.1,
+            "fats": 0.3,
+            "carbs": 10.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Kiwi",
+            "calories": 61,
+            "proteins": 1.1,
+            "fats": 0.5,
+            "carbs": 14.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Papaya",
+            "calories": 43,
+            "proteins": 0.5,
+            "fats": 0.3,
+            "carbs": 10.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cantaloupe",
+            "calories": 34,
+            "proteins": 0.8,
+            "fats": 0.2,
+            "carbs": 8.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Honeydew Melon",
+            "calories": 36,
+            "proteins": 0.5,
+            "fats": 0.1,
+            "carbs": 9.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Figs",
+            "calories": 74,
+            "proteins": 0.8,
+            "fats": 0.3,
+            "carbs": 19.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pomegranate",
+            "calories": 83,
+            "proteins": 1.7,
+            "fats": 1.2,
+            "carbs": 18.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Dates",
+            "calories": 282,
+            "proteins": 2.5,
+            "fats": 0.4,
+            "carbs": 75.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Raisins",
+            "calories": 299,
+            "proteins": 3.1,
+            "fats": 0.5,
+            "carbs": 79.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Prunes",
+            "calories": 240,
+            "proteins": 2.2,
+            "fats": 0.4,
+            "carbs": 63.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Blackberries",
+            "calories": 43,
+            "proteins": 1.4,
+            "fats": 0.5,
+            "carbs": 9.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cranberries",
+            "calories": 46,
+            "proteins": 0.4,
+            "fats": 0.1,
+            "carbs": 12.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Coconut Meat",
+            "calories": 354,
+            "proteins": 3.3,
+            "fats": 33.5,
+            "carbs": 15.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Coconut Water",
+            "calories": 19,
+            "proteins": 0.7,
+            "fats": 0.2,
+            "carbs": 3.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pecan Nuts",
+            "calories": 691,
+            "proteins": 9.2,
+            "fats": 72.0,
+            "carbs": 13.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Macadamia Nuts",
+            "calories": 718,
+            "proteins": 7.9,
+            "fats": 75.8,
+            "carbs": 13.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Hazelnuts",
+            "calories": 628,
+            "proteins": 15.0,
+            "fats": 60.8,
+            "carbs": 16.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Brazil Nuts",
+            "calories": 656,
+            "proteins": 14.3,
+            "fats": 66.4,
+            "carbs": 12.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Chestnuts",
+            "calories": 224,
+            "proteins": 4.2,
+            "fats": 2.3,
+            "carbs": 49.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sesame Seeds",
+            "calories": 573,
+            "proteins": 17.7,
+            "fats": 49.7,
+            "carbs": 23.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Hemp Seeds",
+            "calories": 553,
+            "proteins": 31.6,
+            "fats": 48.8,
+            "carbs": 8.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Poppy Seeds",
+            "calories": 525,
+            "proteins": 18.0,
+            "fats": 41.6,
+            "carbs": 28.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Tahini",
+            "calories": 595,
+            "proteins": 17.0,
+            "fats": 53.7,
+            "carbs": 21.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Almond Butter",
+            "calories": 614,
+            "proteins": 21.0,
+            "fats": 55.5,
+            "carbs": 18.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Soy Roll",
+            "calories": 141,
+            "proteins": 14.0,
+            "fats": 7.3,
+            "carbs": 5.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Tempeh",
+            "calories": 192,
+            "proteins": 20.3,
+            "fats": 10.8,
+            "carbs": 7.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Edamame",
+            "calories": 121,
+            "proteins": 11.9,
+            "fats": 5.2,
+            "carbs": 8.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Miso Paste",
+            "calories": 199,
+            "proteins": 11.7,
+            "fats": 6.1,
+            "carbs": 24.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Soy Sauce",
+            "calories": 53,
+            "proteins": 5.5,
+            "fats": 0.6,
+            "carbs": 4.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Seitan",
+            "calories": 370,
+            "proteins": 75.0,
+            "fats": 1.9,
+            "carbs": 14.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Canola Oil",
+            "calories": 884,
+            "proteins": 0.0,
+            "fats": 100.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Avocado Oil",
+            "calories": 884,
+            "proteins": 0.0,
+            "fats": 100.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sesame Oil",
+            "calories": 884,
+            "proteins": 0.0,
+            "fats": 100.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sunflower Oil",
+            "calories": 884,
+            "proteins": 0.0,
+            "fats": 100.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Flaxseed Oil",
+            "calories": 884,
+            "proteins": 0.0,
+            "fats": 100.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Ghee",
+            "calories": 876,
+            "proteins": 0.3,
+            "fats": 99.5,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Lard",
+            "calories": 902,
+            "proteins": 0.0,
+            "fats": 100.0,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Maple Syrup",
+            "calories": 260,
+            "proteins": 0.0,
+            "fats": 0.1,
+            "carbs": 67.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Agave Nectar",
+            "calories": 310,
+            "proteins": 0.1,
+            "fats": 0.5,
+            "carbs": 76.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Molasses",
+            "calories": 290,
+            "proteins": 0.0,
+            "fats": 0.1,
+            "carbs": 74.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Brown Sugar",
+            "calories": 380,
+            "proteins": 0.0,
+            "fats": 0.0,
+            "carbs": 98.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Stevia Leaf Extract",
+            "calories": 0,
+            "proteins": 0.0,
+            "fats": 0.0,
+            "carbs": 100.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Erythritol",
+            "calories": 20,
+            "proteins": 0.0,
+            "fats": 0.0,
+            "carbs": 100.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Xylitol",
+            "calories": 240,
+            "proteins": 0.0,
+            "fats": 0.0,
+            "carbs": 100.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Halibut Fillet",
+            "calories": 110,
+            "proteins": 21.0,
+            "fats": 2.3,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Mackerel Fillet",
+            "calories": 205,
+            "proteins": 19.0,
+            "fats": 13.9,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Haddock Fillet",
+            "calories": 87,
+            "proteins": 19.0,
+            "fats": 0.7,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Flounder Fillet",
+            "calories": 91,
+            "proteins": 18.8,
+            "fats": 1.2,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Swordfish Steak",
+            "calories": 144,
+            "proteins": 20.0,
+            "fats": 6.7,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Anchovies",
+            "calories": 131,
+            "proteins": 20.4,
+            "fats": 4.8,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Squid",
+            "calories": 92,
+            "proteins": 15.6,
+            "fats": 1.4,
+            "carbs": 3.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Octopus",
+            "calories": 82,
+            "proteins": 14.9,
+            "fats": 1.0,
+            "carbs": 2.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Clams",
+            "calories": 74,
+            "proteins": 12.8,
+            "fats": 1.0,
+            "carbs": 2.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Mussels",
+            "calories": 86,
+            "proteins": 11.9,
+            "fats": 2.2,
+            "carbs": 3.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Oysters",
+            "calories": 81,
+            "proteins": 9.5,
+            "fats": 2.3,
+            "carbs": 4.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Scallops",
+            "calories": 88,
+            "proteins": 16.8,
+            "fats": 0.8,
+            "carbs": 2.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Crab Meat",
+            "calories": 87,
+            "proteins": 18.1,
+            "fats": 1.1,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Deer Meat",
+            "calories": 158,
+            "proteins": 30.0,
+            "fats": 3.2,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Bison Meat",
+            "calories": 143,
+            "proteins": 22.0,
+            "fats": 5.2,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Rabbit Meat",
+            "calories": 136,
+            "proteins": 21.8,
+            "fats": 4.9,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Goat Meat",
+            "calories": 109,
+            "proteins": 20.6,
+            "fats": 2.3,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Quail Meat",
+            "calories": 134,
+            "proteins": 21.8,
+            "fats": 4.5,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Goose Meat",
+            "calories": 161,
+            "proteins": 22.8,
+            "fats": 7.1,
+            "carbs": 0.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cranberry Juice",
+            "calories": 46,
+            "proteins": 0.4,
+            "fats": 0.1,
+            "carbs": 12.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Apple Cider",
+            "calories": 47,
+            "proteins": 0.1,
+            "fats": 0.1,
+            "carbs": 11.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Grape Juice",
+            "calories": 60,
+            "proteins": 0.6,
+            "fats": 0.1,
+            "carbs": 14.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Orange Juice",
+            "calories": 45,
+            "proteins": 0.7,
+            "fats": 0.2,
+            "carbs": 10.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pineapple Juice",
+            "calories": 53,
+            "proteins": 0.4,
+            "fats": 0.1,
+            "carbs": 12.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Tomato Juice",
+            "calories": 17,
+            "proteins": 0.8,
+            "fats": 0.1,
+            "carbs": 4.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Vegetable Juice Cocktail",
+            "calories": 22,
+            "proteins": 0.9,
+            "fats": 0.1,
+            "carbs": 4.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pomegranate Juice",
+            "calories": 54,
+            "proteins": 0.2,
+            "fats": 0.3,
+            "carbs": 13.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Grapefruit Juice",
+            "calories": 39,
+            "proteins": 0.5,
+            "fats": 0.1,
+            "carbs": 9.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Lemonade",
+            "calories": 40,
+            "proteins": 0.1,
+            "fats": 0.1,
+            "carbs": 10.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Limeade",
+            "calories": 41,
+            "proteins": 0.1,
+            "fats": 0.1,
+            "carbs": 10.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Coconut Milk",
+            "calories": 230,
+            "proteins": 2.3,
+            "fats": 23.8,
+            "carbs": 5.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Rice Milk",
+            "calories": 47,
+            "proteins": 0.3,
+            "fats": 1.0,
+            "carbs": 9.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Hemp Milk",
+            "calories": 44,
+            "proteins": 0.8,
+            "fats": 3.2,
+            "carbs": 3.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Flax Milk",
+            "calories": 21,
+            "proteins": 0.8,
+            "fats": 1.5,
+            "carbs": 1.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cashew Milk",
+            "calories": 25,
+            "proteins": 0.8,
+            "fats": 2.1,
+            "carbs": 1.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Macadamia Milk",
+            "calories": 31,
+            "proteins": 0.4,
+            "fats": 3.1,
+            "carbs": 0.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Hazelnut Milk",
+            "calories": 38,
+            "proteins": 0.8,
+            "fats": 3.0,
+            "carbs": 2.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Peanut Flour",
+            "calories": 425,
+            "proteins": 48.0,
+            "fats": 13.5,
+            "carbs": 32.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Almond Flour",
+            "calories": 590,
+            "proteins": 21.4,
+            "fats": 52.5,
+            "carbs": 21.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Coconut Flour",
+            "calories": 443,
+            "proteins": 17.9,
+            "fats": 14.3,
+            "carbs": 57.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Soy Flour",
+            "calories": 435,
+            "proteins": 37.8,
+            "fats": 20.6,
+            "carbs": 31.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Chickpea Flour",
+            "calories": 387,
+            "proteins": 22.4,
+            "fats": 6.7,
+            "carbs": 57.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Potato Flour",
+            "calories": 357,
+            "proteins": 7.3,
+            "fats": 0.4,
+            "carbs": 80.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Rice Flour",
+            "calories": 366,
+            "proteins": 6.0,
+            "fats": 1.4,
+            "carbs": 80.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Brown Rice Flour",
+            "calories": 363,
+            "proteins": 7.2,
+            "fats": 2.8,
+            "carbs": 76.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Oat Flour",
+            "calories": 404,
+            "proteins": 14.7,
+            "fats": 9.1,
+            "carbs": 65.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Buckwheat Flour",
+            "calories": 335,
+            "proteins": 12.0,
+            "fats": 3.1,
+            "carbs": 70.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Tapioca Flour",
+            "calories": 358,
+            "proteins": 0.2,
+            "fats": 0.0,
+            "carbs": 88.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Amaranth Flour",
+            "calories": 374,
+            "proteins": 14.5,
+            "fats": 6.5,
+            "carbs": 65.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Quinoa Flour",
+            "calories": 393,
+            "proteins": 14.3,
+            "fats": 6.1,
+            "carbs": 64.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sorghum Flour",
+            "calories": 358,
+            "proteins": 10.1,
+            "fats": 3.1,
+            "carbs": 74.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Teff Flour",
+            "calories": 366,
+            "proteins": 13.3,
+            "fats": 2.4,
+            "carbs": 73.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Arrowroot Powder",
+            "calories": 357,
+            "proteins": 0.3,
+            "fats": 0.1,
+            "carbs": 88.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Mung Bean Sprouts",
+            "calories": 30,
+            "proteins": 3.0,
+            "fats": 0.2,
+            "carbs": 6.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Alfalfa Sprouts",
+            "calories": 23,
+            "proteins": 4.0,
+            "fats": 0.7,
+            "carbs": 2.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Soybean Sprouts",
+            "calories": 122,
+            "proteins": 13.1,
+            "fats": 6.7,
+            "carbs": 9.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Radish Sprouts",
+            "calories": 43,
+            "proteins": 3.8,
+            "fats": 2.5,
+            "carbs": 3.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Broccoli Sprouts",
+            "calories": 35,
+            "proteins": 2.5,
+            "fats": 0.5,
+            "carbs": 7.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sunflower Sprouts",
+            "calories": 53,
+            "proteins": 3.2,
+            "fats": 1.2,
+            "carbs": 8.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Clover Sprouts",
+            "calories": 23,
+            "proteins": 4.0,
+            "fats": 0.7,
+            "carbs": 2.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Lentil Sprouts",
+            "calories": 106,
+            "proteins": 9.0,
+            "fats": 0.5,
+            "carbs": 22.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Wheat Sprouts",
+            "calories": 198,
+            "proteins": 7.5,
+            "fats": 1.3,
+            "carbs": 42.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Peas Sprouts",
+            "calories": 124,
+            "proteins": 8.8,
+            "fats": 0.6,
+            "carbs": 23.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Chayote Squash",
+            "calories": 19,
+            "proteins": 0.8,
+            "fats": 0.1,
+            "carbs": 4.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Acorn Squash",
+            "calories": 40,
+            "proteins": 1.0,
+            "fats": 0.1,
+            "carbs": 10.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Spaghetti Squash",
+            "calories": 31,
+            "proteins": 0.6,
+            "fats": 0.6,
+            "carbs": 7.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Hubbard Squash",
+            "calories": 40,
+            "proteins": 2.0,
+            "fats": 0.5,
+            "carbs": 9.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Delicata Squash",
+            "calories": 34,
+            "proteins": 1.0,
+            "fats": 0.0,
+            "carbs": 8.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Kabocha Squash",
+            "calories": 49,
+            "proteins": 1.1,
+            "fats": 0.1,
+            "carbs": 12.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pattypan Squash",
+            "calories": 18,
+            "proteins": 1.2,
+            "fats": 0.2,
+            "carbs": 3.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Banana Squash",
+            "calories": 43,
+            "proteins": 1.1,
+            "fats": 0.1,
+            "carbs": 10.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Turban Squash",
+            "calories": 34,
+            "proteins": 1.0,
+            "fats": 0.1,
+            "carbs": 8.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Calabash Gourd",
+            "calories": 14,
+            "proteins": 0.6,
+            "fats": 0.0,
+            "carbs": 3.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Bitter Gourd",
+            "calories": 17,
+            "proteins": 1.0,
+            "fats": 0.2,
+            "carbs": 3.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Snake Gourd",
+            "calories": 15,
+            "proteins": 0.5,
+            "fats": 0.3,
+            "carbs": 3.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Ridge Gourd",
+            "calories": 20,
+            "proteins": 1.2,
+            "fats": 0.2,
+            "carbs": 4.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sponge Gourd",
+            "calories": 18,
+            "proteins": 1.1,
+            "fats": 0.2,
+            "carbs": 4.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Wax Gourd",
+            "calories": 13,
+            "proteins": 0.4,
+            "fats": 0.2,
+            "carbs": 3.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Ivy Gourd",
+            "calories": 15,
+            "proteins": 1.2,
+            "fats": 0.1,
+            "carbs": 3.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pointed Gourd",
+            "calories": 24,
+            "proteins": 2.0,
+            "fats": 0.2,
+            "carbs": 5.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Ash Gourd",
+            "calories": 13,
+            "proteins": 0.4,
+            "fats": 0.2,
+            "carbs": 3.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Chives",
+            "calories": 30,
+            "proteins": 3.3,
+            "fats": 0.7,
+            "carbs": 4.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Shallots",
+            "calories": 72,
+            "proteins": 2.5,
+            "fats": 0.1,
+            "carbs": 16.8,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Scallions",
+            "calories": 32,
+            "proteins": 1.8,
+            "fats": 0.2,
+            "carbs": 7.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Red Onion",
+            "calories": 40,
+            "proteins": 1.1,
+            "fats": 0.1,
+            "carbs": 9.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "White Onion",
+            "calories": 42,
+            "proteins": 0.9,
+            "fats": 0.1,
+            "carbs": 10.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Pearl Onion",
+            "calories": 32,
+            "proteins": 0.8,
+            "fats": 0.1,
+            "carbs": 7.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Cipollini Onion",
+            "calories": 36,
+            "proteins": 1.0,
+            "fats": 0.1,
+            "carbs": 8.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Leek Sprouts",
+            "calories": 38,
+            "proteins": 2.0,
+            "fats": 0.3,
+            "carbs": 8.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Ramps",
+            "calories": 41,
+            "proteins": 1.5,
+            "fats": 0.3,
+            "carbs": 9.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Elephant Garlic",
+            "calories": 149,
+            "proteins": 6.4,
+            "fats": 0.5,
+            "carbs": 33.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Black Garlic",
+            "calories": 181,
+            "proteins": 8.4,
+            "fats": 0.2,
+            "carbs": 41.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Garlic Scapes",
+            "calories": 30,
+            "proteins": 2.0,
+            "fats": 0.2,
+            "carbs": 6.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Peppermint",
+            "calories": 70,
+            "proteins": 3.8,
+            "fats": 0.9,
+            "carbs": 14.9,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Spearmint",
+            "calories": 44,
+            "proteins": 3.3,
+            "fats": 0.6,
+            "carbs": 8.4,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Sage",
+            "calories": 315,
+            "proteins": 10.6,
+            "fats": 12.8,
+            "carbs": 60.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Thyme",
+            "calories": 101,
+            "proteins": 5.6,
+            "fats": 1.7,
+            "carbs": 24.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Marjoram",
+            "calories": 271,
+            "proteins": 12.7,
+            "fats": 7.0,
+            "carbs": 60.6,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Tarragon",
+            "calories": 295,
+            "proteins": 22.8,
+            "fats": 7.2,
+            "carbs": 50.2,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Dill Weed",
+            "calories": 43,
+            "proteins": 3.5,
+            "fats": 1.1,
+            "carbs": 7.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Chervil",
+            "calories": 237,
+            "proteins": 23.2,
+            "fats": 3.9,
+            "carbs": 49.1,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Savory",
+            "calories": 272,
+            "proteins": 6.7,
+            "fats": 5.9,
+            "carbs": 68.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Lemongrass",
+            "calories": 99,
+            "proteins": 1.8,
+            "fats": 0.5,
+            "carbs": 25.3,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Kaffir Lime Leaf",
+            "calories": 30,
+            "proteins": 0.7,
+            "fats": 0.2,
+            "carbs": 10.5,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Fenugreek Leaf",
+            "calories": 49,
+            "proteins": 4.4,
+            "fats": 0.9,
+            "carbs": 6.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Curry Leaf",
+            "calories": 108,
+            "proteins": 6.1,
+            "fats": 1.0,
+            "carbs": 18.7,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Bay Leaf",
+            "calories": 313,
+            "proteins": 7.6,
+            "fats": 8.4,
+            "carbs": 75.0,
+            "serving_size": "100g"
+        },
+        {
+            "food_name": "Lovage",
+            "calories": 32,
+            "proteins": 1.8,
+            "fats": 0.8,
+            "carbs": 6.5,
+            "serving_size": "100g"
+        }
+    ]
+}

@@ -1,4 +1,8 @@
-import 'package:calorie_tracker/Screens/homepage.dart';
+import 'package:calorie_tracker/Screens/rootScreen.dart';
+import 'package:calorie_tracker/database/post_database.dart';
+import 'package:calorie_tracker/services/functions.dart';
+import 'package:calorie_tracker/services/preferences.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class RecomandedPfcScreen extends StatefulWidget {
@@ -9,6 +13,40 @@ class RecomandedPfcScreen extends StatefulWidget {
 }
 
 class _RecomandedPfcScreenState extends State<RecomandedPfcScreen> {
+  int? calories;
+  int? protein;
+  int? fats;
+  int? carbs;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadPFC();
+    // macros();
+  }
+
+  void _loadPFC() async {
+    String id = await FirebaseAuth.instance.currentUser!.uid;
+    Map<String, int> result = await Functions().recommendPFC();
+    setState(() {
+      calories = result['calories'];
+      protein = result['protein'];
+      fats = result['fats'];
+      carbs = result['carbs'];
+    });
+    Map<String, dynamic> userPFC = {
+      "calories": result["calories"],
+      "protein": result["protein"],
+      "fats": result["fats"],
+      "carbs": result["carbs"],
+    };
+    await DatabaseMethod().addUserCalories(userPFC, id);
+    SharedPreferencesHelper().setCalories(result["calories"].toString());
+    SharedPreferencesHelper().setProtein(result["protein"].toString());
+    SharedPreferencesHelper().setFats(result["fats"].toString());
+    SharedPreferencesHelper().setCarbs(result["carbs"].toString());
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -54,7 +92,7 @@ class _RecomandedPfcScreenState extends State<RecomandedPfcScreen> {
                           child: Padding(
                             padding: const EdgeInsets.all(2.0),
                             child: Text(
-                              "Proteins: 225g",
+                              "Proteins: ${protein}g",
                               style: TextStyle(
                                 fontSize: 14.0,
                                 color: Colors.white,
@@ -75,7 +113,7 @@ class _RecomandedPfcScreenState extends State<RecomandedPfcScreen> {
                           child: Padding(
                             padding: const EdgeInsets.all(2.0),
                             child: Text(
-                              "Fats:  118g",
+                              "Fats:  ${fats}g",
                               style: TextStyle(
                                 fontSize: 14.0,
                                 color: Colors.white,
@@ -96,7 +134,7 @@ class _RecomandedPfcScreenState extends State<RecomandedPfcScreen> {
                           child: Padding(
                             padding: const EdgeInsets.all(2.0),
                             child: Text(
-                              "Carbs: 340g",
+                              "Carbs: ${carbs}g",
                               style: TextStyle(
                                 fontSize: 14.0,
                                 color: Colors.white,
@@ -117,7 +155,7 @@ class _RecomandedPfcScreenState extends State<RecomandedPfcScreen> {
                           child: Padding(
                             padding: const EdgeInsets.all(2.0),
                             child: Text(
-                              "Calories: 3400",
+                              "Calories: $calories",
                               style: TextStyle(
                                 fontSize: 14.0,
                                 color: Colors.white,
@@ -141,7 +179,7 @@ class _RecomandedPfcScreenState extends State<RecomandedPfcScreen> {
                     onTap: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => Homepage()),
+                        MaterialPageRoute(builder: (context) => const Rootscreen()),
                       );
                     },
                     child: Container(

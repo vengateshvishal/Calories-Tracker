@@ -1,10 +1,31 @@
 import 'package:calorie_tracker/onboarding_screens/onboarding_screen_2.dart';
 import 'package:calorie_tracker/Screens/welcome_screen_1.dart';
+import 'package:calorie_tracker/services/functions.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class OnboardingScreen1 extends StatelessWidget {
+class OnboardingScreen1 extends StatefulWidget {
   const OnboardingScreen1({super.key});
+
+  @override
+  State<OnboardingScreen1> createState() => _OnboardingScreen1State();
+}
+
+class _OnboardingScreen1State extends State<OnboardingScreen1> {
+  @override
+  void initState() {
+    super.initState();
+    _loadUserData();
+  }
+
+  Future<void> _loadUserData() async {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user != null) {
+      await Functions().fetchAndStoreUserData(user.uid);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -19,8 +40,8 @@ class OnboardingScreen1 extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset(
-                    'assets/images/Welcome.png',
+                  SvgPicture.asset(
+                    'assets/svg/Welcoming.svg',
                     width: 200,
                     height: 200,
                   ),

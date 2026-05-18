@@ -1,5 +1,6 @@
 import 'package:calorie_tracker/Screens/active_selection_screen.dart';
 import 'package:calorie_tracker/database/post_database.dart';
+import 'package:calorie_tracker/services/preferences.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -114,6 +115,7 @@ class _GenderSelectionScreenState extends State<GenderSelectionScreen> {
           final result = await DatabaseMethod().addUserGender(userGender, Id);
 
           if (result == "Sucess") {
+            SharedPreferencesHelper().setGender(genders[selectedIndex]);
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => ActiveSelectionScreen()),

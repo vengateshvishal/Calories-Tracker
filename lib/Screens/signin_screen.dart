@@ -1,6 +1,7 @@
 import 'package:calorie_tracker/Screens/goal_selection_screen.dart';
 import 'package:calorie_tracker/services/auth_services.dart';
 import 'package:calorie_tracker/Screens/login_screen.dart';
+import 'package:calorie_tracker/services/preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -257,6 +258,8 @@ class _SigninScreen2State extends State<SigninScreen> {
                         context,
                       );
                       if (user != null) {
+                        SharedPreferencesHelper().setUserName(nameController.text);
+                        SharedPreferencesHelper().setEmail(emailController.text);
                         Navigator.push(
                           context,
                           MaterialPageRoute(

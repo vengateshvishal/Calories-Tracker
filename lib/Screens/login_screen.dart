@@ -1,5 +1,5 @@
 import 'package:calorie_tracker/Screens/forgot_screen.dart';
-import 'package:calorie_tracker/Screens/goal_selection_screen.dart';
+import 'package:calorie_tracker/Screens/rootScreen.dart';
 import 'package:calorie_tracker/services/auth_services.dart';
 import 'package:calorie_tracker/Screens/welcome_screen_1.dart';
 import 'package:flutter/material.dart';
@@ -203,7 +203,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => GoalSelectionScreen(),
+                          builder: (context) => const Rootscreen(),
                         ),
                       );
                     }

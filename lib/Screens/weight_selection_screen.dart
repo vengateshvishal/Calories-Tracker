@@ -1,5 +1,6 @@
 import 'package:calorie_tracker/Screens/age_selection_screen.dart';
 import 'package:calorie_tracker/database/post_database.dart';
+import 'package:calorie_tracker/services/preferences.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -143,14 +144,25 @@ class _WeightSelectionScreenState extends State<WeightSelectionScreen> {
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
           if (_formKey.currentState!.validate()) {
-            final unit = isKg ? "Kg" : "lb";
+            double finalResult = 0;
+            if (isKg) {
+              setState(() {
+                finalResult += int.parse(_weightController.text);
+              });
+            } else {
+              setState(() {
+                finalResult +=
+                    ((int.parse(_weightController.text)) * 0.45359237);
+              });
+            }
 
-            final String weightString = "${_weightController.text} $unit";
+            final String weightString = "$finalResult";
             String Id = FirebaseAuth.instance.currentUser!.uid;
             print(Id);
             Map<String, dynamic> userWeight = {"Weight": weightString};
             final result = await DatabaseMethod().addUserWeight(userWeight, Id);
             if (result == "Sucess") {
+              SharedPreferencesHelper().setWeight(weightString);
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => AgeSelectionScreen()),

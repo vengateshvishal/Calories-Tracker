@@ -1,3 +1,4 @@
+import 'package:calorie_tracker/services/preferences.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -35,6 +36,9 @@ class AuthServices {
         'email': user.email,
         'displayName': user.displayName,
       }, SetOptions(merge: true));
+
+      SharedPreferencesHelper().setUserName(user.displayName.toString());
+      SharedPreferencesHelper().setEmail(user.email.toString());
     }
     return userCredential;
   }

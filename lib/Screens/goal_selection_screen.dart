@@ -1,5 +1,6 @@
 import 'package:calorie_tracker/Screens/gender_selection_screen.dart';
 import 'package:calorie_tracker/database/post_database.dart';
+import 'package:calorie_tracker/services/preferences.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -95,6 +96,7 @@ class _GoalSelectionScreenState extends State<GoalSelectionScreen> {
           final result = await DatabaseMethod().addUserGoal(userGoal, Id);
 
           if (result == "Sucess") {
+            SharedPreferencesHelper().setGoal(goals[selectedIndex]);
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => GenderSelectionScreen()),

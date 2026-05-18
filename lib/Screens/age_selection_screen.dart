@@ -1,5 +1,6 @@
 import 'package:calorie_tracker/Screens/recomanded_pfc_screen.dart';
 import 'package:calorie_tracker/database/post_database.dart';
+import 'package:calorie_tracker/services/preferences.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -66,7 +67,7 @@ class _AgeSelectionScreenState extends State<AgeSelectionScreen> {
                         textAlign: TextAlign.center,
                         cursorColor: const Color(0xFF42D29D),
                         style: const TextStyle(
-                          fontSize: 28,
+                          fontSize: 20,
                           fontWeight: FontWeight.w500,
                         ),
                         decoration: const InputDecoration(
@@ -135,6 +136,7 @@ class _AgeSelectionScreenState extends State<AgeSelectionScreen> {
             Map<String, dynamic> userActive = {"Age": _ageController.text};
             final result = await DatabaseMethod().addUserAge(userActive, Id);
             if (result == "Sucess") {
+              SharedPreferencesHelper().setAge(_ageController.text);
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => RecomandedPfcScreen()),

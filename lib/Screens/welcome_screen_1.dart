@@ -1,4 +1,5 @@
 import 'package:calorie_tracker/Screens/goal_selection_screen.dart';
+import 'package:calorie_tracker/Screens/rootScreen.dart';
 import 'package:calorie_tracker/services/auth_services.dart';
 import 'package:calorie_tracker/Screens/login_screen.dart';
 import 'package:calorie_tracker/Screens/signin_screen.dart';
@@ -24,8 +25,8 @@ class _WelcomeScreen1State extends State<WelcomeScreen1> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset(
-                    'assets/images/Logo.png',
+                  SvgPicture.asset(
+                    'assets/svg/Logo.svg',
                     width: 150.0,
                     height: 150.0,
                   ),
@@ -76,13 +77,27 @@ class _WelcomeScreen1State extends State<WelcomeScreen1> {
                                           .signInWithGoogle();
 
                                       if (result.user != null) {
-                                        Navigator.push(
-                                          context,
-                                          MaterialPageRoute(
-                                            builder: (context) =>
-                                                GoalSelectionScreen(),
-                                          ),
-                                        );
+                                        bool isNewUser =
+                                            result
+                                                .additionalUserInfo
+                                                ?.isNewUser ??
+                                            false;
+                                        if (isNewUser) {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                              builder: (context) =>
+                                                  GoalSelectionScreen(),
+                                            ),
+                                          );
+                                        } else {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                              builder: (context) => const Rootscreen(),
+                                            ),
+                                          );
+                                        }
                                       }
                                     } catch (e) {
                                       print('Error');

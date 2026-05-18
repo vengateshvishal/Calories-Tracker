@@ -1,5 +1,6 @@
 import 'package:calorie_tracker/Screens/heigth_selection_screen.dart';
 import 'package:calorie_tracker/database/post_database.dart';
+import 'package:calorie_tracker/services/preferences.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -113,12 +114,11 @@ class _ActiveSelectionScreenState extends State<ActiveSelectionScreen> {
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
           String Id = FirebaseAuth.instance.currentUser!.uid;
-          print(actives[selectedIndex]);
-          print(Id);
-          Map<String, dynamic> userActive = {"Gender": actives[selectedIndex]};
+          Map<String, dynamic> userActive = {"Actives": actives[selectedIndex]};
           final result = await DatabaseMethod().addUserActive(userActive, Id);
 
           if (result == "Sucess") {
+            SharedPreferencesHelper().setActive(actives[selectedIndex]);
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => HeightSelectionScreen()),

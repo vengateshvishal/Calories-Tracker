@@ -1,5 +1,6 @@
 import 'package:calorie_tracker/Screens/welcome_screen_1.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class OnboardingScreen3 extends StatelessWidget {
@@ -18,8 +19,8 @@ class OnboardingScreen3 extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset(
-                    'assets/images/Progress.png',
+                  SvgPicture.asset(
+                    'assets/svg/Progress.svg',
                     width: 200,
                     height: 200,
                   ),

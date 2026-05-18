@@ -1,5 +1,6 @@
 import 'package:calorie_tracker/Screens/weight_selection_screen.dart';
 import 'package:calorie_tracker/database/post_database.dart';
+import 'package:calorie_tracker/services/preferences.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
@@ -134,19 +135,28 @@ class _HeightSelectionScreenState extends State<HeightSelectionScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
-          final h1 = isMetric ? selectedMeters : selectedFeet;
-          final h2 = isMetric ? selectedCm : selectedInches;
-          final unit1 = isMetric ? "M" : "Feet";
-          final unit2 = isMetric ? "Cm" : "Inches";
+          double finalResult = 0;
 
-          // 2. Format the string and Map
-          final String heightString = "$h1 $unit1 : $h2 $unit2";
+          if (isMetric) {
+            setState(() {
+              finalResult += selectedMeters * 100;
+              finalResult += selectedCm;
+            });
+          } else {
+            setState(() {
+              finalResult += selectedFeet * 38.48;
+              finalResult += selectedInches * 2.54;
+            });
+          }
+
+          final String heightString = "$finalResult";
           String Id = FirebaseAuth.instance.currentUser!.uid;
           print(Id);
           Map<String, dynamic> userHeight = {"Height": heightString};
           final result = await DatabaseMethod().addUserHeight(userHeight, Id);
 
           if (result == "Sucess") {
+            SharedPreferencesHelper().setHeight(heightString);
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => WeightSelectionScreen()),

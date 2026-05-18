@@ -10,6 +10,7 @@ class DatabaseMethod {
         .set(userGoal);
     return "Sucess";
   }
+
   Future addUserGender(Map<String, dynamic> userGender, String Id) async {
     await FirebaseFirestore.instance
         .collection("users")
@@ -19,6 +20,7 @@ class DatabaseMethod {
         .set(userGender);
     return "Sucess";
   }
+
   Future addUserActive(Map<String, dynamic> userActive, String Id) async {
     await FirebaseFirestore.instance
         .collection("users")
@@ -28,6 +30,7 @@ class DatabaseMethod {
         .set(userActive);
     return "Sucess";
   }
+
   Future addUserHeight(Map<String, dynamic> userHeight, String Id) async {
     await FirebaseFirestore.instance
         .collection("users")
@@ -37,6 +40,7 @@ class DatabaseMethod {
         .set(userHeight);
     return "Sucess";
   }
+
   Future addUserWeight(Map<String, dynamic> userWeight, String Id) async {
     await FirebaseFirestore.instance
         .collection("users")
@@ -46,6 +50,7 @@ class DatabaseMethod {
         .set(userWeight);
     return "Sucess";
   }
+
   Future addUserAge(Map<String, dynamic> userAge, String Id) async {
     await FirebaseFirestore.instance
         .collection("users")
@@ -53,6 +58,16 @@ class DatabaseMethod {
         .collection("Details")
         .doc("Age")
         .set(userAge);
+    return "Sucess";
+  }
+
+  Future addUserCalories(Map<String, dynamic> userPFC, String Id) async {
+    await FirebaseFirestore.instance
+        .collection("users")
+        .doc(Id)
+        .collection("Details")
+        .doc("userPFC")
+        .set(userPFC);
     return "Sucess";
   }
 }
